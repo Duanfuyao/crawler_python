@@ -1,0 +1,225 @@
+{
+    "composition": {
+      "schema": [
+        {
+          "columnType": "DIM",
+          "columnName": "yr",
+          "desc": "统计年份"
+        },
+        {
+          "columnType": "METRIC",
+          "unit": "家",
+          "columnName": "cpnCntYr",
+          "desc": "新增企业数"
+        },
+        {
+          "columnType": "METRIC",
+          "unit": "家",
+          "columnName": "cclrvkCpnCntYr",
+          "desc": "注吊销企业数"
+        },
+        {
+          "columnType": "METRIC",
+          "unit": "家",
+          "columnName": "netAddCpnCntYr",
+          "desc": "净新增企业数"
+        }
+      ],
+      "data": [
+        {
+          "cpnCntYr": 0,
+          "yr": 2018,
+          "cclrvkCpnCntYr": 0,
+          "netAddCpnCntYr": 0
+        },
+        {
+          "cpnCntYr": 0,
+          "yr": 2019,
+          "cclrvkCpnCntYr": 0,
+          "netAddCpnCntYr": 0
+        },
+        {
+          "cpnCntYr": 0,
+          "yr": 2020,
+          "cclrvkCpnCntYr": 0,
+          "netAddCpnCntYr": 0
+        },
+        {
+          "cpnCntYr": 0,
+          "yr": 2021,
+          "cclrvkCpnCntYr": 0,
+          "netAddCpnCntYr": 0
+        },
+        {
+          "cpnCntYr": 0,
+          "yr": 2022,
+          "cclrvkCpnCntYr": 0,
+          "netAddCpnCntYr": 0
+        }
+      ]
+    },
+    "scale": {
+      "schema": [
+        {
+          "columnType": "DIM",
+          "columnName": "yr",
+          "desc": "统计年份"
+        },
+        {
+          "columnType": "DIM",
+          "columnName": "industryName",
+          "desc": "产业链名称"
+        },
+        {
+          "columnType": "METRIC",
+          "unit": "家",
+          "columnName": "nocrOnlineCpnCntAccum",
+          "desc": "在营业数累计值"
+        }
+      ],
+      "data": [
+        {
+          "industryName": "分散剂",
+          "nocrOnlineCpnCntAccum": 11,
+          "yr": 2013
+        },
+        {
+          "industryName": "分散剂",
+          "nocrOnlineCpnCntAccum": 11,
+          "yr": 2014
+        },
+        {
+          "industryName": "分散剂",
+          "nocrOnlineCpnCntAccum": 12,
+          "yr": 2015
+        },
+        {
+          "industryName": "分散剂",
+          "nocrOnlineCpnCntAccum": 13,
+          "yr": 2016
+        },
+        {
+          "industryName": "分散剂",
+          "nocrOnlineCpnCntAccum": 14,
+          "yr": 2017
+        },
+        {
+          "industryName": "分散剂",
+          "nocrOnlineCpnCntAccum": 14,
+          "yr": 2018
+        },
+        {
+          "industryName": "分散剂",
+          "nocrOnlineCpnCntAccum": 14,
+          "yr": 2019
+        },
+        {
+          "industryName": "分散剂",
+          "nocrOnlineCpnCntAccum": 14,
+          "yr": 2020
+        },
+        {
+          "industryName": "分散剂",
+          "nocrOnlineCpnCntAccum": 14,
+          "yr": 2021
+        },
+        {
+          "industryName": "分散剂",
+          "nocrOnlineCpnCntAccum": 14,
+          "yr": 2022
+        }
+      ]
+    },
+    "forecast": {
+      "schema": [
+        {
+          "columnType": "DIM",
+          "columnName": "yr",
+          "desc": "统计年份"
+        },
+        {
+          "columnType": "DIM",
+          "columnName": "industryName",
+          "desc": "产业链名称"
+        },
+        {
+          "columnType": "METRIC",
+          "unit": "亿元",
+          "columnName": "capitalYr",
+          "desc": "注册资本"
+        },
+        {
+          "columnType": "METRIC",
+          "unit": "家",
+          "columnName": "nocrOnlineCpnCntAccum",
+          "desc": "在营业数累计值"
+        }
+      ],
+      "data": [
+        {
+          "capitalYr": "1.9",
+          "yr": "2016"
+        },
+        {
+          "capitalYr": "0.01",
+          "yr": "2017"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2018"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2019"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2020"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2021"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2022"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2023E"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2023E"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2023E"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2024E"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2024E"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2024E"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2025E"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2025E"
+        },
+        {
+          "capitalYr": "0.0",
+          "yr": "2025E"
+        }
+      ]
+    }
+  }
